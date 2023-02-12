@@ -10,5 +10,6 @@ def api():
     else:
         return jsonify("404 Server Error!")
     
-if __name__ == '__main__':
-    app.run(port=5000, debug=True)
+if __name__ == "__main__":
+    app.run(host=os.environ.get('HOST', '0.0.0.0'),
+            port=int(os.environ.get('PORT', 5000)))
