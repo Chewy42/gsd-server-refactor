@@ -14,7 +14,7 @@ dnspython==2.3.0
 dotenv-python==0.0.1
 executing==1.2.0
 Fiona==1.9.1
-Flask==2.2.3
+Flask==2.3.2
 fonttools==4.38.0
 geographiclib==2.0
 geopandas==0.12.2
